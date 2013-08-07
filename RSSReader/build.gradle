@@ -13,7 +13,9 @@ repositories {
 }
 
 dependencies {
-    compile 'com.android.support:support-v4:13.0.+'
+    compile 'com.android.support:support-v4:18.0.+'
+    compile "com.android.support:appcompat-v7:18.0.+"
+    compile files('libs/Simple-Rss2-Android.jar')
 }
 
 android {
