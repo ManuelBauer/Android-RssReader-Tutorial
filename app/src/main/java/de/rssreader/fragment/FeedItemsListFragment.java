@@ -1,12 +1,15 @@
 package de.rssreader.fragment;
 
 import android.app.ProgressDialog;
+import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 import android.support.v4.app.ListFragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
+import android.widget.ListView;
 import android.widget.Toast;
 
 import java.util.List;
@@ -25,6 +28,21 @@ public class FeedItemsListFragment extends ListFragment {
         loadFeed("http://feeds.feedburner.com/mobiFlip/");
 
         return super.onCreateView(inflater, container, savedInstanceState);
+    }
+
+    @Override
+    public void onListItemClick(ListView l, View v, int position, long id) {
+        super.onListItemClick(l, v, position, id);
+
+        RSSItem item = (RSSItem) this.getListAdapter().getItem(position);
+
+        if(item.getLink() != null) {
+            Intent i = new Intent(Intent.ACTION_VIEW);
+            i.setData(Uri.parse(item.getLink().toString()));
+            startActivity(i);
+        } else {
+            Toast.makeText(getActivity(), "Kein Link angegeben", Toast.LENGTH_SHORT).show();
+        }
     }
 
     private void loadFeed(String url) {
