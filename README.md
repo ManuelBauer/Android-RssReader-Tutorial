@@ -5,3 +5,4 @@ Quellcode für das Tutorial "Android Entwicklung für Einsteiger" im Leserbereic
 - Android Studio 1.4 wurde verwendet
 - ActionBarActivity wurde durch AppCompatActivity ersetzt
 - Target SDK ist nun API-Level 23 (Android 6.0)
+- Klick auf einen Listeneintrag öffnen den Standardbrowser mit der URL des Beitrags
