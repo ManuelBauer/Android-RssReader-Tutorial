@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/manuel/Projects/RSSReader/app/libs/Simple-Rss2-Android.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="f75deaa26d15967528637d4ff194c3c3e07c3518">
+        <dex dex="/Users/manuel/Projects/RSSReader/app/build/intermediates/pre-dexed/debug/Simple-Rss2-Android-530d9857f3d1bf61785cb35938c9d869f2276fe0.jar" />
+    </item>
+    <item
+        jar="/Users/manuel/Projects/RSSReader/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="4fcf0b1879f8caf497c073e1432d398e9e2988c1">
+        <dex dex="/Users/manuel/Projects/RSSReader/app/build/intermediates/pre-dexed/debug/classes-b915ab6319af51e30d4da7fc405520c1f6c9c9f0.jar" />
+    </item>
+    <item
+        jar="/Users/manuel/Projects/RSSReader/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.0/jars/libs/internal_impl-23.0.0.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="8bd336eeae661e8311330284897ee07f8ebaa297">
+        <dex dex="/Users/manuel/Projects/RSSReader/app/build/intermediates/pre-dexed/debug/internal_impl-23.0.0-a748ec4c19548e22935584298e1275fc4cecd3fd.jar" />
+    </item>
+    <item
+        jar="/Users/manuel/Projects/RSSReader/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="8413c27b45b7fe61dca4a98159f65e2cee215f5a">
+        <dex dex="/Users/manuel/Projects/RSSReader/app/build/intermediates/pre-dexed/debug/classes-5c218dc4922799105c5a8e3d34fa34256bba7419.jar" />
+    </item>
+    <item
+        jar="/Users/manuel/android_sdk/extras/android/m2repository/com/android/support/support-annotations/23.0.0/support-annotations-23.0.0.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="990e7f98a7bad86a40b1f0bcfeb039023afd0839">
+        <dex dex="/Users/manuel/Projects/RSSReader/app/build/intermediates/pre-dexed/debug/support-annotations-23.0.0-c92409623af6eacff1337915081cc313423aa7dd.jar" />
+    </item>
+
+</items>
